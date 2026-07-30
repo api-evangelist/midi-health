@@ -1,8 +1,26 @@
 aid: midi-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/midi-health.png
 name: Midi Health
-description: 'Midi Health is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Midi Health is a virtual care platform for women in midlife, delivering
+  insurance-covered telemedicine from clinicians who specialize in perimenopause,
+  menopause, and related midlife health. Patients get personalized care plans spanning
+  hormone therapy (HRT), GLP-1 and weight management, sexual wellness, mood, sleep,
+  hair and skin, and cancer-survivorship care, plus prescriptions, compounded medications,
+  and supplements, with coverage available across all 50 states. Backed by GV (Google
+  Ventures), Midi operates as a direct-to-consumer and employer/health-plan telehealth
+  service. No public API, developer portal, or technical developer surface was found
+  during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/midi-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Health
+- Telemedicine
+- Telehealth
+- Women's Health
+- Menopause
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/midi-health-domain-security.yml
 - type: Website
   url: https://www.joinmidi.com
+- type: Blog
+  url: https://www.joinmidi.com/blog
+- type: PrivacyPolicy
+  url: https://www.joinmidi.com/legals/privacy-policy
+- type: TermsOfService
+  url: https://www.joinmidi.com/legals/terms-and-conditions
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
