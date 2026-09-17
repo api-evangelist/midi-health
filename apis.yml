@@ -58,6 +58,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: HelpCenter
+  url: https://joinmidi.zendesk.com/hc/en-us
+- type: Support
+  url: https://joinmidi.zendesk.com/hc/en-us
+- type: Pricing
+  url: https://www.joinmidi.com/pricing-insurance
+- type: Login
+  url: https://app.prod.joinmidi.com/login/
+- type: SignUp
+  url: https://app.prod.joinmidi.com/registration/welcome/
+- type: GitHubOrganization
+  url: https://github.com/midihealth
+- type: Newsroom
+  url: https://www.joinmidi.com/newsroom
+- type: Careers
+  url: https://www.joinmidi.com/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/midi-health/
 - type: DomainSecurity
   url: security/midi-health-domain-security.yml
 - type: Website
